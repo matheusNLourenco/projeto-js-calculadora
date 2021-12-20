@@ -1,5 +1,5 @@
 <h1 align=" center"> 
-    Calculadora JS 🥁
+    Calculadora JS 📱
 </h1>
 
 <h1>
