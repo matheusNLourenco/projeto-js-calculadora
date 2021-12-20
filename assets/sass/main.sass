@@ -1,0 +1,44 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Roboto', sans-serif
+
+.container
+    width: 100%
+    margin-top: 40px
+    max-width: 500px
+    margin: 74px auto 0 auto
+    padding: 2%
+    background-color: #1a1a1a
+    display: flex
+    flex-direction: column
+    align-items: center
+    border-radius: 8px 
+
+    h1
+        margin-bottom: 10px
+        color: #f9f9f9
+
+    .calculator
+        width: 90%
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        gap: 5px
+
+        .display
+            padding: 1rem
+            grid-column: 1/5
+            font-size: 1.8rem
+            text-align: right
+
+        .btn
+            padding: 10px
+            font-size: 1.5rem
+            text-align: center
+            background-color: #dfdfdf
+            color: #1f1f1f
+            cursor: pointer
+
+            &:hover
+                background-color: #bbbaba
